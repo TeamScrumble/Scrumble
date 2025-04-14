@@ -12,7 +12,6 @@ on:
         - front
 
 jobs:
-  # 백엔드 배포 작업
   deploy-backend:
     if: github.event.inputs.deploy_target == 'back'
     runs-on: build
